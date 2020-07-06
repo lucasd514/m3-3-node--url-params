@@ -14,7 +14,9 @@ app.use(express.urlencoded({ extended: false }));
 app.set("view engine", "ejs");
 
 // endpoints here
-const home = (req, res) => res.render("pages/top50", { title: "top 50" });
+const home = (req, res) =>
+  res.render("pages/top50", { top50, title: "top 50" });
+console.log(top50);
 app.get("/top50", home);
 // handle 404s
 app.get("*", (req, res) => {
