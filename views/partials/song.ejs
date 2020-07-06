@@ -1,7 +1,16 @@
-<div><ol><% top50.forEach((song) => { %>
-    <li><%-("#" + song.rank + " (" + song.streams + " Streams" + ") " + song.title + " " + song.artist + " " + song.publicationDate) %></li>
-
-
+<ol><% top50.forEach((song) => { %>
+    <li>
+        <div class='bucket'>
+            <p class='left'>
+                <span class='num'>#<%= song.rank %></span>
+                <span class='streams'>(<%= song.streams %> streams)<p>
+            </p>
+            <div class='right'>
+                <p class='songTitle'><%= song.title %></p>
+                <p class='songArtist'>by <%= song.artist %></p>
+                <p class='songDate'>publication date: <%= song.publicationDate %></p>
+            </div>
+        </div>
+    </li>
 <% }); %>
 </ol>
-</div>

@@ -1,1 +1,41 @@
 /* song css */
+.bucket {
+  display: flex;
+  border-bottom: 2px black solid;
+}
+.right {
+  flex: 1 0 auto;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.li {
+  border-bottom: darkgray 1px solid;
+}
+.num {
+  font-size: 30px;
+  font-weight: 60;
+}
+.streams {
+  font-size: 10px;
+}
+.songTitle {
+  font-size: 20px;
+  font-weight: 60;
+}
+
+.songArtist {
+  font-style: italic;
+  font-size: 14px;
+}
+.songDate {
+  text-align: right;
+  font-style: italic;
+  font-size: 8px;
+}
