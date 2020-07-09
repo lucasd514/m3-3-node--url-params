@@ -38,6 +38,7 @@ In order to do this, you will need to
 Once you've completed 1.1, you should have something like this.
 
 ![](__lecture/assets/top50_1.1.png)
+//done
 
 ### 1.2
 
@@ -52,6 +53,8 @@ Once you've completed 1.1 and 1.2, you should have something like this.
 
 ![](__lecture/assets/top50_1.2.png)
 
+//done
+
 ### 1.3
 
 It is better practice to split our code into _partials_ that have only one job to do.
@@ -60,6 +63,8 @@ It is better practice to split our code into _partials_ that have only one job t
 - Once you've done that, you can add more song data to the page. Add the rest of the data provided. (`rank`, `title`, `artist`, `streams`, `publicationDate`).
 
 ![](__lecture/assets/top50_1.3.png)
+
+//done
 
 ### 1.4
 
