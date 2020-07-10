@@ -22,10 +22,12 @@ app.get("/top50", home);
 // individual pages
 const songRank = (req, res) => {
   const rank = req.params.rank - 1;
+  console.log("this is the" + rank);
   if (rank >= 0 && rank < 51)
     res.render("pages/songPage", {
       title: "song #" + top50[rank].rank,
       song: top50[rank],
+      rank: rank,
     });
   else {
     res.status(404);
